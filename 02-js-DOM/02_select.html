@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+
+    h1, footer {
+        text-align: center;
+        border: 1px solid black;
+    }
+
+
+    section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+     }
+
+
+    article {
+    width: 40%;
+        border: 1px solid black;
+    }
+
+
+    img {
+    width: 100%}
+
+    </style>
+<body>
+   <header>
+   <h1> Titel </h1>
+   </header>
+
+   <main>
+
+    <h2> Undertitel </h2>
+
+   <section>
+
+
+
+   <article>
+
+
+
+    <img src="https://placeimg.com/400/300/arch" alt="">
+     <h3> Artikel 1 </h3>
+    <p> Der skal være noget tekst herunder. Der skal være noget tekst herunder. Der skal være noget tekst herunder. Der skal være noget tekst herunder.</p>
+
+   </article>
+
+
+  <article>
+
+
+
+    <img src="https://placeimg.com/400/300/nature" alt="">
+       <h3> Artikel 2 </h3>
+       <p> Der skal være noget tekst herunder. Der skal være noget tekst herunder. Der skal være noget tekst herunder. Der skal være noget tekst herunder.</p>
+
+   </article>
+   </section>
+
+      </main>
+
+   <footer>
+
+   <h4> This is the footer </h4>
+   </footer>
+
+
+
+
+
+
+
+
+    <script>
+
+
+   let newArticle = document.createElement("article");
+ let mainSection = document.querySelector("section");
+    mainSection.appendChild(newArticle);
+
+//        Element.addEventListener("click", doSomething);
+//        function doSomething() {  }
+
+
+        Element.addEventListener("mouseenter", mainSection);
+        console.log("mouse enter");
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
